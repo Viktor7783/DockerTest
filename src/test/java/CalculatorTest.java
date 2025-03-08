@@ -78,10 +78,3 @@ public class CalculatorTest {
     }
 }
 
-
-class TestTest {
-    public static void main(String[] args) {
-        String input = String.format("%.3f\n%.3f\n%s\n2\n", 5.0, 5.0, "+");
-        System.out.println(input);
-    }
-}
