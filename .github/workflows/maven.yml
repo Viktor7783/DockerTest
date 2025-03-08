@@ -36,8 +36,8 @@ jobs:
           push: true
           tags: viktor7783/calculator:latest
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v3
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          fail_ci_if_error: true
+          slug: Viktor7783/DockerTest
